@@ -11,6 +11,9 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  # audioplayers: ^0.16.1
+  # just_audio: ^0.5.2
+  audioplayers: ^0.16.1
 
 dev_dependencies:
   flutter_test:
@@ -22,4 +25,11 @@ flutter:
 
   assets:
     - assets/
+    - assets/note1.wav
+    - assets/note2.wav
+    - assets/note3.wav
+    - assets/note4.wav
+    - assets/note5.wav
+    - assets/note6.wav
+    - assets/note7.wav
 
