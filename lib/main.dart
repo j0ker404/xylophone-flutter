@@ -25,18 +25,18 @@ Widget buttons() {
     crossAxisAlignment: CrossAxisAlignment.stretch,
     mainAxisAlignment: MainAxisAlignment.spaceAround,
     children: [
-      note(1, Colors.red.shade300),
-      note(2, Colors.orange.shade300),
-      note(3, Colors.yellow.shade600),
-      note(4, Colors.green.shade400),
-      note(5, Colors.green.shade800),
-      note(6, Colors.blue.shade300),
-      note(7, Colors.purple.shade300),
+      note(noteNumber: 1, color: Colors.red.shade300),
+      note(noteNumber: 2, color: Colors.orange.shade300),
+      note(noteNumber: 3, color: Colors.yellow.shade600),
+      note(noteNumber: 4, color: Colors.green.shade400),
+      note(noteNumber: 5, color: Colors.green.shade800),
+      note(noteNumber: 6, color: Colors.blue.shade300),
+      note(noteNumber: 7, color: Colors.purple.shade300),
     ],
   );
 }
 
-Widget note(int noteNumber, Color color) {
+Widget note({int noteNumber, Color color}) {
   return Expanded(
     child: FlatButton(
       padding: EdgeInsets.only(bottom: 5),
